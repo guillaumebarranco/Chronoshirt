@@ -1,0 +1,51 @@
+@import 'compass';
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul, li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.center {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.logo {
+	display: block;
+	width: 80px;
+	height: 80px;
+	background: black;
+	color: white;
+	text-align: center;
+}
+
+.wrapper {
+
+}
+
+.best {
+	li {
+		background: red;
+		width: 120px;
+		height: 240px;
+		display: inline-block;
+	}
+}
+
+#footer {
+	height: 60px;
+	background: grey;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}

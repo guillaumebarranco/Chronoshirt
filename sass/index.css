@@ -1,0 +1,138 @@
+/* line 3, ../sass/index.scss */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 8, ../sass/index.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 12, ../sass/index.scss */
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 18, ../sass/index.scss */
+.h1 {
+  padding-bottom: 20px;
+}
+
+/* line 24, ../sass/index.scss */
+.inscription form {
+  margin: 0 auto;
+  width: 500px;
+  text-align: center;
+  margin-top: 40px;
+}
+/* line 31, ../sass/index.scss */
+.inscription input {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 200px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+/* line 41, ../sass/index.scss */
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* line 46, ../sass/index.scss */
+.logo {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+/* line 59, ../sass/index.scss */
+.link_categories {
+  width: 500px;
+  display: inline-block;
+  text-align: center;
+  margin: 29px 0 0 0;
+  position: absolute;
+}
+/* line 66, ../sass/index.scss */
+.link_categories a {
+  border-left: solid black 1px;
+  padding-left: 5px;
+  margin-left: 5px;
+}
+
+/* line 73, ../sass/index.scss */
+.tshirts {
+  display: inline-block;
+  margin: 0 0 15px 30px;
+}
+
+/* line 79, ../sass/index.scss */
+.best li {
+  background: red;
+  width: 120px;
+  height: 240px;
+  display: inline-block;
+}
+
+/* line 87, ../sass/index.scss */
+#footer {
+  height: 60px;
+  background: grey;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* line 95, ../sass/index.scss */
+.button-back {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  background: #00cc00;
+  border: solid 1px #004d00;
+  padding: 5px 8px;
+  color: white;
+}
+/* line 103, ../sass/index.scss */
+.button-back:hover {
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  background: lime;
+}
+
+/* line 109, ../sass/index.scss */
+.button-back2 {
+  background: #ff4d4d;
+  border: solid 1px #cc0000;
+}
+/* line 113, ../sass/index.scss */
+.button-back2:hover {
+  background: #ff8080;
+}
+
+/* line 118, ../sass/index.scss */
+.lightbox {
+  position: fixed;
+  z-index: 15;
+  width: 700px;
+  height: 300px;
+  margin: 0 auto;
+  background: white;
+}
