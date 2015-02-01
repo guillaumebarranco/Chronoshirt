@@ -108,6 +108,7 @@ if(isset($_SESSION['login'])) {
 	<script>
 
 		$('.tshirts').hide();
+		$('.tshirt_cat1').show();
 
 	$(document).ready(function(){
 

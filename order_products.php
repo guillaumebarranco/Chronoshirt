@@ -2,7 +2,7 @@
 session_start();
 
 if (empty($_SESSION['login']) && empty($_SESSION['password'])) {
-    header('Location: http://www.webarranco.fr/Project_PHP/connexion.php');
+    header('Location: connexion.php');
 
 } else {
 
